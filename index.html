@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Social Media Dashboard</title>
+</head>
+<body class="light-theme">
+  <header>
+    <h1>Social Media Dashboard</h1>
+    <h2>Total Followers: 23,004</h2>
+    <hr>
+    <div class="toggle-container">
+      <div id="toggle">
+        <p class="bold-text">Dark Mode</p>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div>
+      <article class="card main-card">
+        <div class="decoration decoration--facebook"></div>
+        <div class="card--heading">
+          <img src="./images/icon-facebook.svg" alt="facebook icon">
+          <h3>@nathanf</h3>
+        </div>
+        <div>
+          <p class="card--total-number">1987</p>
+          <p class="card--total-followers">Followers</p>
+        </div>
+        <p class="card--evolution card--evolution-increase">12 Today</p>
+      </article>
+      
+      <article class="card main-card">
+        <div class="decoration decoration--twitter"></div>
+        <div class="card--heading">
+          <img src="./images/icon-twitter.svg" alt="twitter icon">
+          <h3>@nathanf</h3>
+        </div>
+        <div>
+          <p class="card--total-number">1044</p>
+          <p class="card--total-followers">Followers</p>
+        </div>
+        <p class="card--evolution card--evolution-increase">99 Today</p>
+      </article>
+   
+      <article class="card main-card">
+        <div class="decoration decoration--instagram"></div>
+        <div class="card--heading">
+          <img src="./images/icon-instagram.svg" alt="instagram icon">
+          <h3>@realnathanf</h3>
+        </div>
+        <div>
+          <p class="card--total-number">11k</p>
+          <p class="card--total-followers">Followers</p>
+        </div>
+        <p class="card--evolution card--evolution-increase">1099 Today</p>
+      </article>
+      
+      <article class="card main-card">
+        <div class="decoration decoration--youtube"></div>
+        <div class="card--heading">
+          <img src="./images/icon-youtube.svg" alt="youtube icon">
+          <h3>Nathan F.</h3>
+        </div>
+        <div>
+          <p class="card--total-number">8239</p>
+          <p class="card--total-followers">Subscribers</p>
+        </div>
+        <p class="card--evolution card--evolution-decrease">144 Today</p>
+      </article>
+    </div>
+  
+    <div id="overview-part">
+      <p class="bold-text title">Overview - Today</p>
+    
+      <article class="card secondary-card">
+        <div class="row">
+          <p class="bold-text">Page Views</p>
+          <img src="./images/icon-facebook.svg" alt="facebook icon">
+        </div>
+        <div class="row">
+          <p class="card--total-number">87</p>
+          <p class="card--evolution card--evolution-increase">3%</p>
+        </div>
+      </article>
+
+      <article class="card secondary-card">
+        <div class="row">
+          <p class="bold-text">Likes</p>
+          <img src="./images/icon-facebook.svg" alt="facebook icon">
+        </div>
+        <div class="row">
+          <p class="card--total-number">52</p>
+          <p class="card--evolution card--evolution-decrease">2%</p>
+        </div>
+      </article>
+
+      <article class="card secondary-card">
+        <div class="row">
+          <p class="bold-text">Likes</p>
+          <img src="./images/icon-instagram.svg" alt="instagram icon">
+        </div>
+        <div class="row">
+          <p class="card--total-number">5462</p>
+          <p class="card--evolution card--evolution-increase">2257%</p>
+        </div>
+      </article>
+
+      <article class="card secondary-card">
+        <div class="row">
+          <p class="bold-text">Profile Views</p>
+          <img src="./images/icon-instagram.svg" alt="instagram icon">
+        </div>
+        <div class="row">
+          <p class="card--total-number">52k</p>
+          <p class="card--evolution card--evolution-increase">1375%</p>
+        </div>
+      </article>
+      
+      <article class="card secondary-card">
+        <div class="row">
+          <p class="bold-text">Retweets</p>
+          <img src="./images/icon-twitter.svg" alt="twitter icon">
+        </div>
+        <div class="row">
+          <p class="card--total-number">117</p>
+          <p class="card--evolution card--evolution-increase">303%</p>
+        </div>
+      </article>
+
+      <article class="card secondary-card">
+        <div class="row">
+          <p class="bold-text">Likes</p>
+          <img src="./images/icon-twitter.svg" alt="twitter icon">
+        </div>
+        <div class="row">
+          <p class="card--total-number">507</p>
+          <p class="card--evolution card--evolution-increase">553%</p>
+        </div>
+      </article>
+
+      <article class="card secondary-card">
+        <div class="row">
+          <p class="bold-text">Likes</p>
+          <img src="./images/icon-youtube.svg" alt="youtube icon">
+        </div>
+        <div class="row">
+          <p class="card--total-number">107</p>
+          <p class="card--evolution card--evolution-decrease">19%</p>
+        </div>
+      </article>
+      
+      <article class="card secondary-card">
+        <div class="row">
+          <p class="bold-text">Total Views</p>
+          <img src="./images/icon-youtube.svg" alt="youtube icon">
+        </div>
+        <div class="row">
+          <p class="card--total-number">1407</p>
+          <p class="card--evolution card--evolution-decrease">12%</p>
+        </div>
+      </article>
+    </div>
+  </main>  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/PaulPourtout/" target="_blank">Paul Pourtout</a>.
+  </div>
+  <script type="text/javascript" src="./script/script.js"></script>
+</body>
+</html>
