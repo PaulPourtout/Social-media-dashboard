@@ -19,6 +19,7 @@ body {
     --twitter: hsl(195, 100%, 50%);
     --instagram: linear-gradient(150deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
     --youtube: hsl(348, 97%, 39%);
+    --toggle-dark: linear-gradient(90deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
 
     /* STYLE */
     font-family: 'Inter', sans-serif;
@@ -47,7 +48,7 @@ header, main {
     top: 0;
     left: 0;
     right: 0;
-    height: 30vh;
+    height: 17rem;
     border-bottom-right-radius: var(--radius);
     border-bottom-left-radius: var(--radius);
 }
@@ -104,13 +105,13 @@ main .card-container:first-child {
     position: relative;
 }
 
-#toggle-container:hover #toggle--cursor {
-    background-color: var(--card-bg);
+#toggle-container:hover #toggle {
+    background: var(--toggle-dark);
 }
 
 #toggle--cursor {
     position: absolute;
-    left: 4px;
+    right: 4px;
     transform: translateX(0);
     transition: all 0.25s ease-out;
     height: var(--toggle-height);
@@ -120,8 +121,8 @@ main .card-container:first-child {
 }
 
 .toggle--active #toggle--cursor {
-    left: 100%;
-    transform: translateX(calc(-100% - var(--toggle-padding)));
+    right: 100%;
+    transform: translateX(calc(100% + var(--toggle-padding)));
 }
 
 .card {
