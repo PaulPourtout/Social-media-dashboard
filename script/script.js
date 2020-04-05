@@ -1,8 +1,9 @@
 const body = document.querySelector("body");
 let toggleState = false;
 const toggleElement = document.querySelector("#toggle");
+const toggleContainerElement = document.querySelector("#toggle-container");
 
-toggleElement.addEventListener("click", toggleTheme);
+toggleContainerElement.addEventListener("click", toggleTheme);
 
 function toggleTheme() {
     if (toggleState) {
