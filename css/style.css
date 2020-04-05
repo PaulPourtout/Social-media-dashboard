@@ -241,7 +241,7 @@ main .card-container:first-child {
 }
 
 .card--evolution-increase:before {
-    content: url("../images//icon-up.svg");
+    content: url("../images/icon-up.svg");
     display: block;
     position: relative;
     bottom: 3px;
@@ -254,7 +254,7 @@ main .card-container:first-child {
 
 .card--evolution-decrease:before {
     color: var(--bright-red);
-    content: url("../images//icon-down.svg");
+    content: url("../images/icon-down.svg");
     display: block;
     position: relative;
     bottom: 3px;
